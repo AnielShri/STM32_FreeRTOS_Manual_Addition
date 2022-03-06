@@ -53,3 +53,5 @@ dkms.conf
 
 # STM32CubeIDE settings
 .settings
+Debug/
+

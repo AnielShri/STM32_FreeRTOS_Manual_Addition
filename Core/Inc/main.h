@@ -41,7 +41,8 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+#define OK		0
+#define ERROR	10
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/

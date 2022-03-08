@@ -25,18 +25,18 @@ The relevant files in the `portable` folder are
 * `heap4.c` from `MemMang`
 * `port.c` and `portmacro.h` in the `GCC/ARM_CMxx` folder
 
-![portable](Documents/Images/03_freertos_portable.png)
-![freertos folder](Documents/Images/04_freertos_folder.png)
+![portable](Documentation/Images/03_freertos_portable.png)
+![freertos folder](Documentation/Images/04_freertos_folder.png)
 
 ## 4. Add FreeRTOS project configuration
 Add the `FreeRTOSConfig` to the `Application/Src` and `Application/Inc` folder.
 
-![config](Documents/Images/05_application_folder.png)
+![config](Documentation/Images/05_application_folder.png)
 
 ## 5. Add the FreeRTOS and Application folder to build paths
 Under Project -> Properties, choose C/C++ General -> Paths and Symbols. Add The FreeRTOS and Application Inc folders.
 
-![paths](Documents/Images/06_path_and_symbols.png)
+![paths](Documentation/Images/06_path_and_symbols.png)
 
 ## 6. Build and verify
 After performing the above steps, the build *should* pass, and debugging *should* work.
